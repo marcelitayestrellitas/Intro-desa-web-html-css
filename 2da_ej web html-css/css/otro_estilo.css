@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0;
+    background-color: #eee;
+}
+body{
+    width: 1000px;
+    padding: 10px;
+}
+#perfil{
+    height: 600px;
+    width: 200px;
+    background-color: black;
+    display: inline-block;
+    vertical-align: top;
+}
+#perfil h1{
+    font-size: 1.2rem;
+    text-align: center;
+}
+#perfil p{
+    text-align: center;
+    font-size: 1rem;
+}
+#foto{
+    text-align: center;
+}
+#perfil img{
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.perfil-tarjeta{
+    margin-bottom: 10px;
+}
+#perfil-redes-sociales ul{
+    text-align: center;
+    list-style-type: none;
+}
+#perfil-redes-sociales li{
+    display: inline-block;
+}
+#perfil-redes-sociales a{
+    font-style: normal;
+    text-decoration: none;
+}
+
+#perfil-descripcion p{
+    padding-top: 10px;
+    text-align: justify;
+}
+
+
+#contenido {
+    height: 800px;
+    width: 700px;
+    display: inline-block;
+    background-color: tomato;
+}
+
+
+#menu{
+    width: 700px;
+    
+    min-height: 100px;
+    background-color: yellow;
+    padding-top: 50px;
+}
+#menu ul{
+    list-style: none;
+    background-color: white;
+}
+#menu ul li{
+    display: inline-block;
+    background-color:blueviolet;
+    margin-left: 20px;
+}
+#menu ul li a{
+    font-style: normal;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 2rem;
+}
+
+.tarjeta {
+    margin-top: 5px;
+    width: 700px;
+    height: 200px;
+    background-color: teal;
+}

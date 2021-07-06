@@ -1,0 +1,52 @@
+/**/
+@import https://fonts.google.com/specimen/Yomogi
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#contenido {
+    width: 1000px;
+    height: 900px;
+    background-color: #3c5233;
+}
+
+.perfil {
+    width: 250px;
+    height: 600px;
+    background-color: #264027;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.perfil-datos{
+    width: auto;
+    height: 600px;
+    background-color: #b38a58;
+    text-align: center;
+}
+
+.principal {
+    width: 740px;
+    height: 600px;
+    background-color: #c09f75;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navegacion{
+    list-style-type: none;
+    height: 50px;
+    background-color: #6f732f;
+}
+
+.cursos{
+    list-style-type: none;
+    width:auto; height: 50px;
+    background-color: #6f732f;
+}
+
+
+.navegacion li {
+    display: inline-block;
+}

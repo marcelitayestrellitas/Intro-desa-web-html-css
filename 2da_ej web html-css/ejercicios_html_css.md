@@ -8,8 +8,13 @@ Utilizar una página de referencia para diagramar su página web de inicio.
 Después responder estas preguntas en sus propias palabras y como lo entiendan.
 
 1. ¿Qué es el modelo de caja?
+        O box model, es la manera en que se representan todos los elementos html en una página. Cada elemento genera una caja, el comportamiento de esa caja depende de su clasificación: si es de línea o de bloque. 
 2. ¿Para qué sirve la propiedad display?
-3. ¿Cuál es la diferencia entre inline ; block ; inline-block ?
+        Nos permite definir como será mostrado un cierto elemento HTML.
+3. ¿Cuál es la diferencia entre inline ; block ; inline-block ?    
+        inline:     Muestra en la misma línea (respetando el flujo) todos los  elementos y no acepta las propiedades width, height ni margenes verticales.
+        block: Muestra los elementos en líneas independientes y acepta las propiedades width, height y margenes verticales.
+        inline-block: Su comportamiento es una mezcla entre los dos anteriores, se muestran en la misma línea (respetando el flujo) todos los elementos y además, acepta las propiedades width, height y margenes verticales.
 
 Las preguntas y respuestas deberán estar como comentarios al final de su archivo index.html
 
